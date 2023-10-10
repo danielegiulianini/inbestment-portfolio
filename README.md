@@ -15,7 +15,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-in**B**estmentPortfolio is a FinTech project aimed at defining the **best** investment portfolio by combining to a variable extent a given set of finacial indices, over a predefined time horizon.
+in**B**estmentPortfolio is a FinTech project [^1] aimed at defining the **best** investment portfolio by combining to a variable extent a given set of finacial indices, over a predefined time horizon.
+
+[^1]: dating back to 2019 (during my masters's years)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -38,7 +40,7 @@ The project is implemented with:
 * [.NET core](https://learn.microsoft.com/en-us/dotnet/core/introduction)
 * [Entity Framework](https://learn.microsoft.com/en-us/ef/)
 * [sklearn](https://scikit-learn.org/)
-* [pdm-arima](https://pypi.org/project/pmdarima/)
+* [pmd-arima](https://pypi.org/project/pmdarima/)
 * [arch](https://pypi.org/project/arch/)
 * [sqlite](https://www.sqlite.org/index.html)
 
