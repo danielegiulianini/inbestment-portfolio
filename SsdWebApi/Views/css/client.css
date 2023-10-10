@@ -1,0 +1,32 @@
+body,
+html {
+    /*necessary for vertical alignment*/
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-grow {
+    flex: 1 0 auto;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+#textualForecast {
+    /*not responsive*/
+    height: 450px;
+    overflow-y: scroll;
+}
+
+#forecastRow {
+    display: none;
+}
+
+#optimizationRow {
+    display: none;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="client.js">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/client.css">
+</head>
+
+<body>
+    <div class="container h-100">
+        <h1 class="text-center">SsdWebApi client</h1>
+        <div class="row align-items-center h-100">
+            <div class="col-8 mx-auto">
+                <div class="jumbotron mx-auto">
+                    <div class="form-group row">
+                        <!--<select id="indexId" class="form-control">
+<option>S&P_500_INDEX
+<option>FTSE_MIB_INDEX
+<option>GOLD_SPOT_$_OZ</option>
+<option>MSCI_EM</option>
+<option>MSCI_EURO</option>
+<option>All_Bonds_TR</option>
+<option>U.S._Treasury</option>
+</select>-->
+                        <label for="indexId" class="col-form-label col-2">Index</label>
+                        <div class="col-3">
+                            <input id="indexId" type="number" value="0" min="0" max="7" value="1">
+                        </div>
+                        <label for="indexId" class="col-form-label col-2">horizon</label>
+                        <div class="col-2">
+                            <input type="text" class="form-control-plaintext" readonly id="horizon" placeholder="2 years">
+                        </div>
+                        <div class="col-3 text-center">
+                            <a id="getForecastButton" class="btn btn-primary">Forecast</a>
+                            <div id="forecastWaitingAlert" class="alert alert-info alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> It may take some seconds to complete.
+                            </div>
+                        </div>
+                    </div>
+                    <div id="forecastRow" class="form-group row mx-auto">
+                        <div class="col-8 mx-auto">
+                            <img id="graphicForecast" src="" class="img-fluid flex-grow img-responsive">
+                        </div>
+                        <div class="col-6 mx-auto text-center bg-white">
+                            <div id="textualForecast"></div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col text-center">
+                            <a id="getPortfolioButton" class="btn btn-primary">Get Optimal Portfolio</a>
+                            <div id="portfolioWaitingAlert" class="alert alert-info alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> It may take few minutes to complete.
+                            </div>
+                            <div id="optimizationRow" class="form-group row">
+                                <div class="col-10 mx-auto">
+                                    <div id="portfolio" class="card text-center">
+                                        <div class="card-body mx-auto">
+                                            <h5 class="card-title text-center mx-auto">Optimal Portfolio</h5>
+                                            <div class="card-text mx-auto">
+                                                <ul class="content card-text mx-auto">
+                                                    <li> ciao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
