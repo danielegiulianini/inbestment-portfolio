@@ -24,7 +24,7 @@ in**B**estmentPortfolio is a FinTech project [^1] aimed at defining the **best**
 * [Presentation slides](doc/presentation.pdf)[^2]
 * [Project requirements text](doc/requirements.pdf)[^2]
 
-[^2] in Italian, as part of the project has been developed in the context of a university course tought in Italian that defined its requirements.
+[^2]: in Italian, as part of the project has been developed in the context of a university course tought in Italian that defined its requirements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
