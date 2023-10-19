@@ -5,11 +5,10 @@
 <!-- TABLE OF CONTENTS -->
   ## Table of Contents ##
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-        <li><a href="#solution-strategy">Solution strategy</a></li>
-        <li><a href="#technologies">Technologies</a></li>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#documentation-links">Documentation links</a></li>
+    <li><a href="#solution-strategy">Solution strategy</a></li>
+    <li><a href="#technologies">Technologies</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 
@@ -18,6 +17,14 @@
 in**B**estmentPortfolio is a FinTech project [^1] aimed at defining the **best** investment portfolio by combining to a variable extent a given set of finacial indices, over a predefined time horizon.
 
 [^1]: dating back to 2019 (during my masters's years)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Documentation links
+* [Presentation slides](doc/presentation.pdf)[^2]
+* [Project requirements text](doc/requirements.pdf)[^2]
+
+[^2] in Italian, as part of the project has been developed in the context of a university course tought in Italian that defined its requirements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
