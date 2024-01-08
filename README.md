@@ -35,6 +35,8 @@ The high-level solution strategy adopted consists in optimizing a trade-off betw
 - **GARCH** ([1986](https://www.sciencedirect.com/science/article/abs/pii/030440769290064X)) model, for conditional variance estimation, to support *risk estimation*;
 - the **Differential Algorithm** (Rainer Storn et al., [1997](https://link.springer.com/article/10.1023/a:1008202821328)) metaheuristic and the **PSO** (James Kennedy et al., [1995](https://ieeexplore.ieee.org/abstract/document/488968/)) genetic algorithm, for *returns-risk trade-off optimization*.
 
+Python code [here](https://github.com/danielegiulianini/inbestment-portfolio/tree/main/SsdWebApi/Models).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
